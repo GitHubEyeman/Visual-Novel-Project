@@ -1,16 +1,19 @@
-﻿# The game and the first day starts here.
+﻿# This is the codes for the first day of this VN. There are multiple days split across different files.
 # All codes about characters, names, fonts, ects goes to the characters.rpy 
-# name of the character.
-# The game starts here.
+# The code starts here.
+
+# MentalHP variable to determine which ending you'll get at the end.
 default MentalHP = 0
+
 label start:
+
+    # Intro scene
 
     scene bg rain_rooftop
     play music "rain.mp3" fadein 0.3 fadeout 0.3
     "My mind kept going back to that day."
     "And I kept wondering..."
     "How things would've turn out if I had done things differently."
-
     stop music fadeout 1.0
     scene black with fade
     
@@ -19,18 +22,14 @@ label start:
     centered "{cps=100}3 Days remaining{/cps}" with fade
 
 
+    # The First scene at a cafe.
     scene bg cafe with fade
-
-
     show victim happy with dissolve
-
-    # These display lines of dialogue.
 
     v "Hi, stuff happened and-"
     mc "Really?"
     mc angry "I don't care"
 
-    # This is the first choice.
 
     menu:
 
