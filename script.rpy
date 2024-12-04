@@ -24,9 +24,9 @@ label start:
 
     # The First scene at a cafe.
     scene bg cafe with fade
-    show victim happy with dissolve
+    show aidil happy with dissolve #Make sure it is lowercase even if the original image file has uppercase letters.
 
-    v "Hi, stuff happened and-"
+    a "Hi, stuff happened and-"
     mc "Really?"
     mc angry "I don't care"
 

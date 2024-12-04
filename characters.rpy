@@ -1,3 +1,5 @@
-define v = Character("Victim", color="#eaff00")
-define mc = Character("Abu",image = "mc", color="#9c1b1b")
-
+define mc = Character("Hawk Tuah",image = "mc", color="#9c1b1b")
+define a = Character("Aidil", color="#eaff00")
+define s = Character("Sara", color="#2d5498")
+define j = Character("Jeremy", color="#511a98")
+define z = Character("Ziad", color="#2cb455")

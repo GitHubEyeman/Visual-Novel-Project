@@ -7,8 +7,8 @@ label dayfinal:
    
     
     scene bg rooftop with fade
-    show victim concerned with dissolve
-    v "Oh, I'm so depressed, I wanna jump!"
+    show aidil concerned with dissolve
+    a "Oh, I'm so depressed, I wanna jump!"
     mc sad "(What should I do?)"
 
     menu:
@@ -16,7 +16,7 @@ label dayfinal:
         "Never give up on saving them":
             $ MentalHP += 1
             mc sad "Wait, don't jump!"
-            v "Why?"
+            a "Why?"
             mc "Because I'm your friend and I, will..."
             play audio "never.mp3"
             mc "Never gonna give you up!"
@@ -32,7 +32,7 @@ label dayfinal:
     return
 
 label ending1:
-    v "Oh okay I won't"
+    a "Oh okay I won't"
     mc "Cool!"
 
     scene black with fade
@@ -47,12 +47,12 @@ label ending1:
     return
 
 label ending2:
-    v "No"
-    hide victim concerned with dissolve
-    play sound "ImpactFall.wav" volume 1
+    a "No"
+    hide aidil concerned with dissolve
+    play sound "ImpactFall.wav" volume 1.0
     "They jumped anyways"
     scene bg rain_rooftop with dissolve
-    play music "rain.mp3" fadein 0.3 fadeout 1.0
+    play music "rain.mp3" volume 0.1 fadein 0.3 fadeout 1.0
     mc sad "Man, that sucks..."
 
     scene black with fade
@@ -67,12 +67,12 @@ label ending2:
     return
 
 label ending3:
-    v "If you have nothing to say then, byeeee!"
-    hide victim concerned with dissolve
+    a "If you have nothing to say then, byeeee!"
+    hide aidil concerned with dissolve
     play sound "ImpactFall.wav" volume 1
     "(They jumped off....)"
     scene bg rain_rooftop with dissolve
-    play music "rain.mp3" fadein 0.3 fadeout 1.0
+    play music "rain.mp3" volume 0.1 fadein 0.3 fadeout 1.0
     mc "..."
     mc sad "What have I done..."
 
