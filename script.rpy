@@ -28,6 +28,7 @@ label start:
 
     a "Hi, stuff happened and-"
     mc "Really?"
+    show aidil with dissolve
     mc angry "I don't care"
 
 

@@ -7,7 +7,7 @@ label dayfinal:
    
     
     scene bg rooftop with fade
-    show aidil concerned with dissolve
+    show aidil with dissolve
     a "Oh, I'm so depressed, I wanna jump!"
     mc sad "(What should I do?)"
 
@@ -17,9 +17,7 @@ label dayfinal:
             $ MentalHP += 1
             mc sad "Wait, don't jump!"
             a "Why?"
-            mc "Because I'm your friend and I, will..."
-            play audio "never.mp3"
-            mc "Never gonna give you up!"
+            mc "Because I'm your friend."
             if MentalHP > 1:
                 jump ending1
             else:
@@ -27,7 +25,6 @@ label dayfinal:
 
         "Give up on saving them":
             jump ending3
-
 
     return
 

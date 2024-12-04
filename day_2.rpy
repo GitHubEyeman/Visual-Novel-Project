@@ -7,6 +7,11 @@ label day2:
 
     scene bg rooftop with fade
     "Stuff happened.."
+    show aidil at left with dissolve
+    show ziad at right with dissolve
+    show sara with dissolve
+    "Ehhh"
+
 
     menu:
 
