@@ -24,12 +24,12 @@ label start:
 
     # The First scene at a cafe.
     scene bg cafe with fade
-    show aidil happy with dissolve #Make sure it is lowercase even if the original image file has uppercase letters.
+    show aidil with dissolve #Make sure it is lowercase even if the original image file has uppercase letters.
 
     a "Hi, stuff happened and-"
-    mc "Really?"
+    mc happy "Really?"
     show aidil with dissolve
-    mc angry "I don't care"
+    mc "I don't care"
 
 
     menu:

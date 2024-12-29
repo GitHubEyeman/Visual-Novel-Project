@@ -7,11 +7,11 @@ label day2:
 
     scene bg rooftop with fade
     "Stuff happened.."
-    show aidil at left with dissolve
-    show ziad at right with dissolve
-    show sara with dissolve
-    "Ehhh"
-
+    show aidil at right with dissolve
+    show ziad glasses flip at left with dissolve
+    show sara with dissolve 
+    mc "Ehhh"
+    mc happy "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
 
     menu:
 
