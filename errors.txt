@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/day_2.rpy", line 14: end of line expected.
+    show sara, dslv(0.5)
+             ^
+
+Ren'Py Version: Ren'Py 8.3.4.24120703
+Tue Dec 31 09:11:35 2024
