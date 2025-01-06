@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 124: choice menuitem expects a non-empty block.
+    "Find Ziad":
+                ^
+
+Ren'Py Version: Ren'Py 8.3.3.24111502
+Mon Jan  6 23:05:03 2025
