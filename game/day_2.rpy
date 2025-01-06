@@ -15,11 +15,15 @@ label day2:
 
     menu:
 
-        "Help":
+        "Help Aidil":
             $ MentalHP += 1
             jump day3
 
-        "Don't help":
-            $ MentalHP -= 1
+        "Help Sara":
+            $ MentalHP += 1
+            jump day3
+        
+        "Help Ziad":
+            $ MentalHP += 1
             jump day3
     return
