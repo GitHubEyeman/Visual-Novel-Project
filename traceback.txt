@@ -1,13 +1,20 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
+<<<<<<< HEAD
   File "game/script.rpy", line 70, in script
     jump back
 ScriptError: could not find label 'back'.
+=======
+  File "game/day_2.rpy", line 19, in script
+    show ziad show ziad with dissolve
+Exception: Image 'ziad' does not accept attributes 'show ziad'.
+>>>>>>> 9c32aca127ceea6982498ee902af33afe6ddf200
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
+<<<<<<< HEAD
   File "game/script.rpy", line 70, in script
     jump back
   File "C:\Users\syafi\Documents\renpy-8.3.3-sdk\renpy\ast.py", line 1699, in execute
@@ -15,8 +22,29 @@ Full traceback:
   File "C:\Users\syafi\Documents\renpy-8.3.3-sdk\renpy\script.py", line 1103, in lookup
     raise ScriptError("could not find label '%s'." % str(original))
 ScriptError: could not find label 'back'.
+=======
+  File "game/day_2.rpy", line 19, in script
+    show ziad show ziad with dissolve
+  File "C:\Users\User\Desktop\renpy-8.3.4-sdk\renpy\ast.py", line 1117, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "C:\Users\User\Desktop\renpy-8.3.4-sdk\renpy\ast.py", line 1080, in show_imspec
+    renpy.config.show(name,
+  File "C:\Users\User\Desktop\renpy-8.3.4-sdk\renpy\exports\displayexports.py", line 477, in show
+    if not base.find_target() and renpy.config.missing_show:
+  File "C:\Users\User\Desktop\renpy-8.3.4-sdk\renpy\display\image.py", line 421, in find_target
+    self.target = target._duplicate(a)
+  File "C:\Users\User\Desktop\renpy-8.3.4-sdk\renpy\display\displayable.py", line 249, in _duplicate
+    args.extraneous()
+  File "C:\Users\User\Desktop\renpy-8.3.4-sdk\renpy\display\displayable.py", line 109, in extraneous
+    raise Exception("Image '{}' does not accept attributes '{}'.".format(
+Exception: Image 'ziad' does not accept attributes 'show ziad'.
+>>>>>>> 9c32aca127ceea6982498ee902af33afe6ddf200
 
-Windows-10-10.0.22631 AMD64
-Ren'Py 8.3.3.24111502
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.3.4.24120703
 The Letter 
+<<<<<<< HEAD
 Mon Jan  6 22:23:41 2025
+=======
+Tue Dec 31 08:32:27 2024
+>>>>>>> 9c32aca127ceea6982498ee902af33afe6ddf200
