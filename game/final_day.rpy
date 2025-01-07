@@ -1,7 +1,7 @@
 label dayfinal:
     scene black with fade
     
-    centered "{cps=10}23rd April 2099{/cps}"
+    centered "{cps=10}24th April 2099{/cps}"
     play sound "Transition.mp3" volume 1.5
     centered "{cps=100}Dawn of the final day{/cps}" with fade
    
@@ -55,7 +55,7 @@ label ending2:
     scene black with fade
     "I've failed..."
     "..."
-    #play audio "special.mp3" volume 1.0
+    play audio "special.mp3" volume 1.0
     "After all these years, this guilt, this feeling...\n{w}It never left me."
 
     "My mind kept going back to that day."
@@ -77,7 +77,7 @@ label ending3:
 
     "I've failed..."
     "..."
-    #play audio "special.mp3" volume 1.0
+    play audio "special.mp3" volume 1.0
     "All these years, this guilt, this feeling...\n{w}It never left me."
 
     "My mind kept going back to that day."
