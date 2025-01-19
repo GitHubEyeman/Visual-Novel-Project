@@ -4,7 +4,9 @@
 
 # MentalHP variable to determine which ending you'll get at the end.
 default MentalHP = 0
-default helpAidil = False
+default tellAidil = False
+default chooseSara = False
+default chooseZiad = False
 label start:
 
     # Intro scene
@@ -63,7 +65,7 @@ label start:
     menu:
 
         "Tell Aidil about the letter":
-            $ helpAidil = True
+            $ tellAidil = True
             mc "Anyway, do you know anyone that with a problem."
             a "Someone with a problem? Well, you could say everyone has their own problem."
             a "You have your own problem, I have my own problem, even the snarky Miss Alissa has her own problem. It's either it's a big problem or a small problem."
@@ -115,17 +117,14 @@ label continue:
     mc "Well if you say so"
     "Tuah excuse himself to find people that may have sent the letter"
     mc "{i}Hmm, so who should I check on to?{/i}"
-    
+    mc "{i}There's 2 people that I think maybe the one who have a problem. Sara and Ziad{/i}"
+    mc "{i}Sara always sit alone and Ziad always looked stress from academic. Hmm which one should I approach first?"
     menu day1choice:
 
         "Find Sara":
-            scene library with fade
-            "The library was quieter than usual, with only a few students scattered among the shelves."
-            "Sara sat at a corner table by the window, a stack of books next to her and her nose buried in one."
-            mc happy "Maybe Sara’s the one who need help. She always alone pretty much all the time. Maybe she’s suffering in silent and don’t know who to tell. And of course she chooses me to tell about her problem. Hehe"
-            show sara at right with dissolve
-            mc "Hey Sara. Got a moment?"
-            s "AH! Oh Tuah, you surprise me. Uh yeah, I do. What is it?"
+            $ chooseSara = True
+            jump findsara
 
         "Find Ziad":
-            "Blabla"
+            $ chooseZiad = True
+            jump findziad

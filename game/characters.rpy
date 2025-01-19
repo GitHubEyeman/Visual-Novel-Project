@@ -1,6 +1,6 @@
 define mc = Character("Tuah",image = "mc", color="#9c1b1b")
 define a = Character("Aidil", color="#eaff00")
-define s = Character("Sara", color="#2d5498")
+define s = Character("Sara", image = "Sara", color="#2d5498")
 define z = Character("Ziad", color="#2cb455")
 
 
