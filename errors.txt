@@ -2,18 +2,9 @@
 errors listed below, and try again.
 
 
-<<<<<<< HEAD
-File "game/script.rpy", line 124: choice menuitem expects a non-empty block.
-    "Find Ziad":
-                ^
-
-Ren'Py Version: Ren'Py 8.3.3.24111502
-Mon Jan  6 23:05:03 2025
-=======
-File "game/day_2.rpy", line 14: end of line expected.
-    show sara, dslv(0.5)
-             ^
+File "game/script.rpy", line 25: expected end of line
+    play music "bgm2.mp3" volume 1.5 with fadein 1.0, fadeout 1.0
+                                     ^
 
 Ren'Py Version: Ren'Py 8.3.4.24120703
-Tue Dec 31 09:11:35 2024
->>>>>>> 9c32aca127ceea6982498ee902af33afe6ddf200
+Sun Jan 19 16:11:59 2025

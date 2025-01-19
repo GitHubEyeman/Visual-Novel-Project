@@ -50,9 +50,10 @@ define gui.muted_color = '#510000'
 define gui.hover_muted_color = '#7a0000'
 
 ## The colors used for dialogue and menu choice text.
-define gui.text_color = '#ffffff'
+define gui.text_color = '#292e53'
 define gui.interface_text_color = '#ffffff'
-
+define gui.interface_text_outlines = [ (0, "#454a77", 1, 2) ]
+#define gui.dialogue_text_outlines = [ (0, "#f3f0da", 1, 2) ]
 
 ## Fonts and Font Sizes ########################################################
 
@@ -61,6 +62,7 @@ define gui.text_font = "fonts/HeyComic.ttf"
 
 ## The font used for character names.
 define gui.name_text_font = "fonts/HeyComic.ttf"
+define gui.name_text_outlines = [ (0, "#454a77", 1, 2) ]
 
 ## The font used for out-of-game text.
 define gui.interface_text_font = "fonts/HeyComic.ttf"
